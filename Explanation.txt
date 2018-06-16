@@ -1,0 +1,6 @@
+The first step of the program is to read the input array. The row is splitted by spaces, only the even numbers get selected
+and the duplicates are removed. Then the program runs a for-loop to find the combinations for single, double up to n-th groups
+where "n" is the count of the even numbers in the array. For example, if all the even numbers are {2, 4, 6, 8} it starts
+with counting all the single subsets: {2}, {4}, {6}, {8}. Then, the double subsets: {2, 4}, {2, 6} and so on up to the
+length of the array, in the instance - 4. The counting itself is done with the mathematical formula for combination:
+n! / [k!*(n-k)!] where "n" is the number of elements and "k" is the length of the subset.
